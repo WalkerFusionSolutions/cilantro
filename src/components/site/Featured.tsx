@@ -8,13 +8,13 @@ const dishes = [
   {
     img: cordon,
     name: "Chicken Cordon Bleu Tropicale ",
-    desc: "Breaded chicken breast stuffed with ham and cheese, served with mushrooms, sweet plantains, and cream sauce.",
+    desc: "Breaded Chicken Breast stuffed with Ham, Cheese, Mushrooms, Plantains and Cream Sauce.",
     price: "EC$58",
   },
   {
     img: pulpo,
     name: "Pulpo a la Parrilla",
-    desc: "Tender grilled octopus with a special sauce and rosemary potatoes.",
+    desc: "Tender Grilled Octopus with a special sauce and Rosemary Potatoes.",
     price: "EC$58",
   },
   {
