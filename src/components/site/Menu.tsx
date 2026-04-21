@@ -229,7 +229,7 @@ const menu: Category[] = [
           { name: "Coke", price: ec("6") },
           { name: "Coke Zero", price: ec("6") },
           { name: "Fanta", price: ec("6") },
-          { name: "Spritee", price: ec("6") },
+          { name: "Sprite", price: ec("6") },
           { name: "Grapefruit Schweppes", price: ec("6") },
           { name: "Ting", price: ec("6") },
           { name: "Chill Angostura", price: ec("8") },

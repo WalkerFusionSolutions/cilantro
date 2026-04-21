@@ -15,7 +15,7 @@ const reviews = [
   },
   {
     quote:
-      "Cilantro is truly a gem in Grenada! The food is beyond amazing—every bite is bursting with flavor and cooked to perfection. The service is outstanding: warm, welcoming, and genuine, making you feel right at home the moment you walk in. The ambiance is perfect, blending comfort with style, creating the kind of atmosphere that makes you want to linger a little longer.",
+      "Cilantro is truly a gem in Grenada! The food is beyond amazing—every bite is bursting with flavor and cooked to perfection. The service is outstanding: warm, welcoming, and genuine, making you feel right at home the moment you walk in.",
     name: "Deborah",
     source: "Tripadvisor",
   },
