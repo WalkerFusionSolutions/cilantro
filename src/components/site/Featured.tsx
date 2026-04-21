@@ -1,27 +1,27 @@
 import { Reveal } from "./Reveal";
-import pabellon from "@/assets/dish-pabellon.jpg";
+import cordon from "@/assets/dish-cordon.jpg";
 import pulpo from "@/assets/dish-pulpo.jpg";
-import snapper from "@/assets/dish-snapper.jpg";
+import langostino from "@/assets/dish-langostino.jpg";
 import Image from "next/image";
 
 const dishes = [
   {
-    img: pabellon,
-    name: "Pabellón Criollo",
-    desc: "Venezuela's national dish — shredded beef, black beans, white rice, sweet plantains.",
+    img: cordon,
+    name: "Chicken Cordon Bleu Tropicale ",
+    desc: "Breaded chicken breast stuffed with ham and cheese, served with mushrooms, sweet plantains, and cream sauce.",
     price: "EC$58",
   },
   {
     img: pulpo,
     name: "Pulpo a la Parrilla",
-    desc: "Tender grilled octopus with chimichurri and rosemary potatoes.",
-    price: "EC$95",
+    desc: "Tender grilled octopus with a special sauce and rosemary potatoes.",
+    price: "EC$58",
   },
   {
-    img: snapper,
-    name: "Catch of the Day",
-    desc: "Whole grilled red snapper with tropical salsa and Creole spice.",
-    price: "Market",
+    img: langostino,
+    name: "Langostino al Champiñón",
+    desc: "Prawns cooked with a Garlic sauce and Mushrooms with Garlic Bread.",
+    price: "EC$67",
   },
 ];
 

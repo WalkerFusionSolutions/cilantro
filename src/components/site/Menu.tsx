@@ -64,7 +64,7 @@ const menu: Category[] = [
           { name: "Aniseed Bread", price: ec("5") },
           { name: "Garlic Bread", price: ec("8") },
           { name: "Milk Bread", price: ec("5") },
-          { name: "SmallCheese Bread", price: ec("6") },
+          { name: "Cheese Bread", price: ec("6") },
         ],
       },
     ],
