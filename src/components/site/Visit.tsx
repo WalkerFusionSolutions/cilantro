@@ -76,10 +76,20 @@ export function Visit() {
                 )}
               </ul>
 
+              <div className="mt-6 overflow-hidden rounded-xl border border-border bg-muted/20">
+                <iframe
+                  title={`${b.name} map`}
+                  src={`https://www.google.com/maps?q=${encodeURIComponent(b.mapsQuery)}&output=embed`}
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  className="h-56 w-full"
+                />
+              </div>
+
               <div className="mt-8 flex flex-wrap gap-3">
                 <Button asChild size="lg" className="bg-primary hover:bg-primary-deep">
                   <a
-                    href={`https://maps.google.com/?q=${encodeURIComponent(b.mapsQuery)}`}
+                    href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(b.mapsQuery)}`}
                     target="_blank"
                     rel="noreferrer"
                   >

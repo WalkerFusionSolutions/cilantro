@@ -189,7 +189,7 @@ const menu: Category[] = [
         title: "Sides",
         items: [
           { name: "Beans: Black or Pinto", price: ec("9") },
-          { name: "Rice: Yelloww, White or Mixed (Veggies)", price: ec("8") },
+          { name: "Rice: Yellow, White or Mixed (Veggies)", price: ec("8") },
           { name: "Pico de Gallo or Hot Pico", price: ec("8") },
           { name: "Coleslaw", price: ec("12") },
           { name: "Cassava: Boiled or Fried", price: ec("10") },
@@ -277,7 +277,7 @@ const menu: Category[] = [
   },
 ];
 
-function ItemRow({ it }: { it: Item }) {
+function ItemRow({ it, hidePrice = false }: { it: Item; hidePrice?: boolean }) {
   return (
     <div className="group flex items-baseline gap-4 border-b border-dashed border-border pb-4">
       <div className="flex-1">
@@ -288,9 +288,11 @@ function ItemRow({ it }: { it: Item }) {
           <p className="mt-1 text-sm text-muted-foreground">{it.desc}</p>
         )}
       </div>
-      <span className="whitespace-nowrap font-medium text-primary">
-        {it.price}
-      </span>
+      {!hidePrice && (
+        <span className="whitespace-nowrap font-medium text-primary">
+          {it.price}
+        </span>
+      )}
     </div>
   );
 }
@@ -324,7 +326,11 @@ function CategoryBody({ c }: { c: Category }) {
           )}
           <div className="grid gap-x-12 gap-y-5 md:grid-cols-2">
             {g.items.map((it) => (
-              <ItemRow key={it.name} it={it} />
+              <ItemRow
+                key={it.name}
+                it={it}
+                hidePrice={c.id === "sides" && g.title === "Sides"}
+              />
             ))}
           </div>
         </div>
