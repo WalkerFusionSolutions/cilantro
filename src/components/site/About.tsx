@@ -17,7 +17,7 @@ export function About() {
             />
             <div className="absolute -bottom-6 -right-6 hidden rounded-2xl bg-primary p-6 text-primary-foreground shadow-glow md:block">
               <p className="font-display text-3xl font-semibold">Est.</p>
-              <p className="text-sm uppercase tracking-widest">Family-Owned</p>
+              <p className="text-sm uppercase tracking-widest">2023</p>
             </div>
           </div>
         </Reveal>
@@ -30,14 +30,13 @@ export function About() {
             A hidden gem with a soul of <em className="text-primary">cilantro</em>.
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-muted-foreground">
-            What looks like a humble takeaway booth opens into an intimate,
-            candle-lit dining room — a Grenadian secret kept by those who know.
-            We are a family-owned kitchen specializing in Venezuelan fusion,
-            blending the flavors of home with the bounty of the Caribbean.
+          Cilantro was born from the dream of a Venezuelan family who wanted to share the warmth, flavor, and togetherness of Latin cuisine with the people of Grenada.
+          What started as a small idea has grown into a space where culture and community meet over vibrant, homemade food.
+          Every dish is prepared with passion, using fresh ingredients and recipes inspired by our roots.
+          We move forward with love in everything we do, and every plate that leaves our kitchen carries a piece of that love with it.
           </p>
           <blockquote className="mt-8 border-l-2 border-primary pl-6 font-display text-xl italic text-foreground">
-            "Providing an unforgettable experience through the fusion of
-            flavor."
+            "At Cilantro, every bite tells a story of family, tradition, and heart."
           </blockquote>
         </Reveal>
       </div>

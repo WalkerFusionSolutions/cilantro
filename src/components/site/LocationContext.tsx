@@ -37,6 +37,7 @@ export const BRANCHES: Record<LocationId, Branch> = {
     address: "True Blue, St. George",
     hours: "Mon – Sat · 11:00 AM – 8:30 PM",
     hoursNote: "Closed Sunday",
+    tel: "+1 (473) 403-3557",
     instagram: "@cilantro.tb",
     instagramUrl: "https://instagram.com/cilantro.tb",
     servesBreakfast: false,

@@ -73,6 +73,7 @@ const menu: Category[] = [
     id: "entrees",
     label: "Entrées",
     items: [
+      { name: "Parilla Mar y Tierra", desc: "Grilled meats, fresh seafood, golden fries, and bold flavor in every bite.", price: ec("58") },
       { name: "Chicken Cordon Bleu Tropicale", desc: "Breaded chicken breast stuffed with ham and cheese, served with mushrooms, sweet plantains, and cream sauce.", price: ec("58") },
       { name: "Caldereta de Pescado", desc: "Juicy Fish and Tender Potatoes, all slowly cooked in a rich Tomato and Spice Sauce", price: ec("65") },
       { name: "Arroz Marinera (2 Pax. Minimum $75 Each)", desc: "Seafood Rice with a mix of Shrimps, Octopus, Mussels and Calamari", price: ec("150") },
@@ -80,7 +81,7 @@ const menu: Category[] = [
       { name: "Langostino al Champiñón", desc: "Prawns cooked with a Garlic sauce and Mushrooms + Garlic Bread", price: ec("67") },
       { name: "Lomito al Vino", desc: "Beef Tenderloin with Red Wine Sauce + 2 sides", price: ec("98") },
       { name: "Pulpo a la Parrilla", desc: "Octopus cooked directly on the grill, with a very special sauce", price: ec("58") },
-      { name: "Pabellón Criollo", desc: "Venezuela National Dish with shredded Beef / Chicken / Pork, Rice, Black Beans, Plantains White Cheese & Arepa", price: ec("47") },
+      { name: "Pabellón Criollo", desc: "Venezuela National Dish with shredded Beef, Chicken, Pork, Rice, Black Beans, Plantains, White Cheese & Arepa", price: ec("47") },
       { name: "Parrilla Mar y Tierra (2 Pax. Minimum - $75 Each)", desc: "Seafood, Chicken, Beef and Pork Grill", price: ec("150") },
       { name: "Plato Mixto", desc: "Choose 2 of Beef, Pork & Chicken + 2 Sides", price: ec("45") },
       { name: "Pollo Asado", desc: "Baked Chicken + 2 Sides", price: ec("43") },

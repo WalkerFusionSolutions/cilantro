@@ -29,10 +29,6 @@ export function Hero() {
           transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-3xl"
         >
-          <span className="inline-flex items-center gap-2 rounded-full border border-cream/30 bg-cream/10 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-cream backdrop-blur">
-            <MapPin className="h-3.5 w-3.5" /> Grand Anse · Grenada
-          </span>
-
           <h1 className="mt-6 font-display text-5xl font-semibold leading-[1.05] text-cream sm:text-6xl md:text-7xl">
             Ambassadors of the{" "}
             <span className="italic text-primary">Venezuelan Arepa</span> in the

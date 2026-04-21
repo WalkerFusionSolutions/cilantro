@@ -9,26 +9,26 @@ import { Reveal } from "./Reveal";
 const reviews = [
   {
     quote:
-      "A hidden gem in Grand Anse. Don't be fooled by the takeaway booth — step inside and you'll find one of the best dining experiences on the island.",
-    name: "Sarah M.",
+      "When you first walk in you may think it is fast food/take away but sit down at one of the tables and the friendly service and the quality of the food will overwhelm you. I will be coming back next time I am in Grenada.",
+    name: "Sam",
     source: "Tripadvisor",
   },
   {
     quote:
-      "Authentic Venezuelan flair you simply won't find anywhere else in Grenada. The arepas are unreal.",
-    name: "James P.",
+      "Cilantro is truly a gem in Grenada! The food is beyond amazing—every bite is bursting with flavor and cooked to perfection. The service is outstanding: warm, welcoming, and genuine, making you feel right at home the moment you walk in. The ambiance is perfect, blending comfort with style, creating the kind of atmosphere that makes you want to linger a little longer.",
+    name: "Deborah",
     source: "Tripadvisor",
   },
   {
     quote:
-      "The best server we've ever had on holiday — and the food matched. Pulpo was perfectly charred. We'll be back tomorrow.",
-    name: "Helena & Tom",
+      "Great service and great food! Value for money. Variety of Flavourful Food great quantity. Small clean space well organised and welcoming staff. Great spot easy to find in Grand Anse!",
+    name: "Karlene P.",
     source: "Tripadvisor",
   },
   {
     quote:
-      "Family-run with so much heart. Every plate tastes like it was made for you. A must-visit.",
-    name: "Marco D.",
+      "Without a doubt, this is the best place on the entire island to eat: excellent flavor and food quality, with an incredible variety of tastes. It's extremely clean, and on top of that, they make their own homemade desserts that taste amazing!!",
+    name: "Pablo R.",
     source: "Google",
   },
 ];
