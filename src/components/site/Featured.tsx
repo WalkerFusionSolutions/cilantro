@@ -7,7 +7,7 @@ import Image from "next/image";
 const dishes = [
   {
     img: cordon,
-    name: "Chicken Cordon Bleu Tropicale ",
+    name: "Pollo Cordon Bleu Tropicale ",
     desc: "Breaded Chicken Breast stuffed with Ham, Cheese, Mushrooms, Plantains and Cream Sauce.",
     price: "EC$58",
   },
